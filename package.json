@@ -1,0 +1,31 @@
+{
+	"name": "spaces",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "prettier --check --ignore-path .gitignore .",
+		"format:fix": "prettier --write --ignore-path .gitignore .",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"next": "12.2.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.0.3",
+		"@commitlint/config-conventional": "^17.0.3",
+		"@types/node": "18.0.5",
+		"@types/react": "18.0.15",
+		"@types/react-dom": "18.0.6",
+		"eslint": "8.19.0",
+		"eslint-config-next": "12.2.2",
+		"husky": "^8.0.0",
+		"prettier": "^2.7.1",
+		"typescript": "4.7.4"
+	}
+}
